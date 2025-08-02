@@ -3,3 +3,11 @@ InvestmentPerfTrackerV2/
 
 # VS Code settings
 .vscode/
+
+# Data files
+data/
+
+# DBT
+target/
+dbt_packages/
+logs/
