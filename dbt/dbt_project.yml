@@ -33,6 +33,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   investment_performance_tracker:
-    # Applies to all files under models/example/
-    example:
+    bronze:
       +materialized: table
+      +schema: bronze
+
+vars:
+  raw_trades_path: "C:/InvestmentPerformanceTrackerV2/data/raw/csv/us_stock_trades.csv"

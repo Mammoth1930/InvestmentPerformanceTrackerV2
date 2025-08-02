@@ -1,8 +1,0 @@
-investment_performance_tracker:
-  target: dev
-  outputs:
-    dev:
-      type: duckdb
-      path: "C:/InvestmentPerformanceTrackerV2/data/bronze/bronze.duckdb"
-      schema: bronze
-      threads: 4
